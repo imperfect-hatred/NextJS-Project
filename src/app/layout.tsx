@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import SocialProof from "./components/SocialProof";
 import WhyReWallet from "./components/WhyReWallet";
+import AboutUs from "./components/AboutUs";
 
 const montserrat = Montserrat({
   weight: ['600'],
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Hero/>
         <SocialProof/>
         <WhyReWallet/>
+        <AboutUs/>
         <Footer/>
       </body>
     </html>
