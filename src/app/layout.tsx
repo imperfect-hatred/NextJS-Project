@@ -4,6 +4,8 @@ import Header from  './components/Header'
 import { Montserrat, Space_Grotesk } from "next/font/google";
 import Hero from './components/Hero'
 import Footer from './components/Footer'
+import SocialProof from "./components/SocialProof";
+import WhyReWallet from "./components/WhyReWallet";
 
 const montserrat = Montserrat({
   weight: ['600'],
@@ -27,6 +29,8 @@ export default function RootLayout({
       <body className={space_grotesk.className}>
         <Header/>
         <Hero/>
+        <SocialProof/>
+        <WhyReWallet/>
         <Footer/>
       </body>
     </html>
