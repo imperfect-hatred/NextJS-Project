@@ -8,6 +8,7 @@ import SocialProof from "./components/SocialProof";
 import WhyReWallet from "./components/WhyReWallet";
 import AboutUs from "./components/AboutUs";
 import HowDoesItWork from "./components/HowDoesItWork";
+import Testimonials from "./components/Testimonials";
 
 const montserrat = Montserrat({
   weight: ['600'],
@@ -33,6 +34,7 @@ export default function RootLayout({
         <WhyReWallet/>
         <AboutUs/>
         <HowDoesItWork/>
+        <Testimonials/>
         <Footer/>
       </body>
     </html>
