@@ -3,7 +3,7 @@ import ReadMore from "./ReadMore";
 
 export default function AboutUs() {
   return (
-    <div className="py-15 px-4 flex flex-col min-[1125]:flex-row 2xl:px-20"> 
+    <div className="py-15 px-4 flex flex-col items-center min-[1125]:flex-row 2xl:px-20"> 
       <Image className="hidden pr-15 min-[1125]:block"
         src={"/About-image.png"}
         width={626}
@@ -35,7 +35,7 @@ export default function AboutUs() {
         </p>
         <ReadMore/>
       </div>
-        <Image className="flex min-[1125]:hidden"
+        <Image className=" min-[1125]:hidden"
         src={'/About-image.png'}
         width={626}
         height={636}

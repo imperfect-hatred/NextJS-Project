@@ -42,11 +42,11 @@ export default function WhyReWallet() {
         </div>
       </div>
       <a
-          href="#"
-          className="block mt-12 py-[10px] px-6 text-[18px] bg-[#F7931A] text-white text-center rounded-md hover:bg-[#1A1E42] transition delay-25 duration-250 min-[1125]:justify-self-center"
-        >
-          Unlock your Wallet now
-        </a>
+        href="#"
+        className="block mt-12 py-[10px] px-6 text-[18px] bg-[#F7931A] text-white text-center rounded-md hover:bg-[#1A1E42] transition delay-25 duration-250 min-[1125]:justify-self-center"
+      >
+        Unlock your Wallet now
+      </a>
     </div>
   );
 }

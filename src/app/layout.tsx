@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import SocialProof from "./components/SocialProof";
 import WhyReWallet from "./components/WhyReWallet";
 import AboutUs from "./components/AboutUs";
+import HowDoesItWork from "./components/HowDoesItWork";
 
 const montserrat = Montserrat({
   weight: ['600'],
@@ -15,15 +16,13 @@ const montserrat = Montserrat({
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['500'],
+  weight: ['400'],
 })
 
 
 
 export default function RootLayout({
-  children,
 }: Readonly<{
-  children: React.ReactNode;
 }>) {
   return (
     <html lang="ru">
@@ -33,6 +32,7 @@ export default function RootLayout({
         <SocialProof/>
         <WhyReWallet/>
         <AboutUs/>
+        <HowDoesItWork/>
         <Footer/>
       </body>
     </html>

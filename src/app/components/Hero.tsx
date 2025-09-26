@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col px-[16px] py-[40px] text-[#1A1E42] min-[1125px]:flex-row items-center w-full h-full 2xl:px-[80px]">
+    <div className="flex flex-col px-[16px] py-[40px] text-[#1A1E42] min-[1125px]:flex-row items-center 2xl:px-[80px]">
             <div>
                 <ul>
                     <li>
@@ -88,9 +88,7 @@ export default function Hero() {
                 <p className="pb-[40px]">and many others.</p>
                 </div>
             </div>
-            <div>
                 <Image src="/Hero-image.png" width={720} height={720} alt="Bitcoin" />
-            </div>
     </div>
   );
 }
