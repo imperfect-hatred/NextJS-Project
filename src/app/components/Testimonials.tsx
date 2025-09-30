@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <div className="py-15 px-4">
+    <div className="py-15 px-4 bg-gray-50">
       <div className="flex flex-col text-center items-center justify-center">
         <Image src={"/Line.svg"} width={48} height={0} alt="" />
         <h1 className="text-5xl pt-3">Testimonials</h1>
