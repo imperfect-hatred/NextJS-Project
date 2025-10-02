@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function GetInTouch() {
   return (
-    <div className="px-4 py-15">
+    <div className="px-4 py-15 2xl:px-20">
       <div className="bg-[#1A1E42] rounded-lg px-6 py-8 flex flex-col gap-8 min-[1125px]:flex-row">
         <div>
           <Image
